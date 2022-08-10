@@ -1,94 +1,46 @@
 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-    <li class="nav-item dropdown dropdown position-static">
+    
+    <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Men
+        အခြေခံစားသောက်ကုန်များ
       </a>
-        <!-- Menswear dropdown menu-->
-        <div class="dropdown-menu dropdown-megamenu">
-          <div class="container-fluid">
-              <div class="row g-0 g-lg-3">
-                  <!-- Menswear Dropdown Menu Links Section-->
-                  <div class="col col-lg-8 py-lg-5">
-                      {{> navbar/dropdown-links-one }}
-                  </div>
-                  <!-- /Menswear Dropdown Menu Links Section-->
-
-                  <!-- Menswear Dropdown Menu Images Section-->
-                  <div class="col-lg-4 d-none d-lg-block">
-                      <div class="vw-50 border-start h-100 position-absolute"></div>
-                      <div class="py-lg-5 position-relative z-index-10 px-lg-4">
-                          <div class="row g-4">
-                              <div class="col-12 col-md-6">
-                                  {{> 
-                                      navbar/dropdown-card-image 
-                                      img="{{webRoot}}/assets/images/banners/banner-12.jpg"
-                                      title="Latest Arrivals"
-                                  }}
-                              </div>
-                              <div class="col-12 col-md-6">
-                                  {{> 
-                                      navbar/dropdown-card-image 
-                                      img="{{webRoot}}/assets/images/banners/banner-13.jpg"
-                                      title="Accessories"
-                                  }}                                     
-                              </div>
-                              <div class="col-12 col-md-6">
-                                  {{> 
-                                      navbar/dropdown-card-image 
-                                      img="{{webRoot}}/assets/images/banners/banner-14.jpg"
-                                      title="T-Shirts"
-                                  }}                                     
-                              </div>
-                              <div class="col-12 col-md-6">
-                                  {{> 
-                                      navbar/dropdown-card-image 
-                                      img="{{webRoot}}/assets/images/banners/banner-15.jpg"
-                                      title="Jackets"
-                                  }}                                      
-                              </div>
-                          </div>
-                          <a href="{{webRoot}}/category.html" class="btn btn-link p-0 fw-bolder text-link-border mt-5 text-dark mx-auto d-table">Visit Mens Section</a>
-                      </div>
-                  </div>
-                  <!-- Menswear Dropdown Menu Images Section-->
-              </div>
-          </div>
-      </div>
-      <!-- / Menswear dropdown menu-->
-    </li>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">ငရုတ်မှုန့်</a></li>
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">ဆော့</a></li>
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">ဟင်းခက်အမွှေးအကြိုင်</a></li>
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">လက်ဖက်</a></li>
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">ခေါက်ဆွဲ</a></li>
+        <li><a class="dropdown-item" href="{{webRoot}}/category.html">အချိုပွဲ</a></li>
+      </ul>
+  </li>
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Women
+          အဖျော်ယမကာများ
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Tops</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Bottoms</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Jeans</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">T-Shirts</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Shoes</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Accessories</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">အသင့်သောက်ဖျော်ရည်</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">သစ်သီးဖျော်ရည်</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">ကော်ဖီ</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">လက်ဖက်ရည်</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">နို့နှင့်ဒိန်ချဉ်</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">ဖျော်ရည်အနှစ်</a></li>
         </ul>
-      </li>
+    </li>
       <li class="nav-item">
         <a class="nav-link" href="{{webRoot}}/category.html" role="button">
-          Kids
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{webRoot}}/category.html" role="button">
-          Sale
+          အထူးလျော့စျေး
         </a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Pages
+          နမူနာ စာမျက်နှာများ
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="{{webRoot}}/index.html">Homepage</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/category.html">Category</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/product.html">Product</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/cart.html">Cart</a></li>
-          <li><a class="dropdown-item" href="{{webRoot}}/checkout.html">Checkout</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/index.html">မူလစာမျက်နှာ</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/category.html">ပစ္စည်းအမျိုးအစား</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/product.html">ကုန်စ္စည်း</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/cart.html">စျေးခြင်း</a></li>
+          <li><a class="dropdown-item" href="{{webRoot}}/checkout.html">ငွေချေရန်</a></li>
           <li><a class="dropdown-item" href="{{webRoot}}/login.html">Login</a></li>
           <li><a class="dropdown-item" href="{{webRoot}}/register.html">Register</a></li>
           <li><a class="dropdown-item" href="{{webRoot}}/forgotten-password.html">Forgotten Password</a></li>

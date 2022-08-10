@@ -20,10 +20,10 @@
         <div class="py-10 bg-img-cover bg-overlay-dark position-relative overflow-hidden bg-pos-center-center rounded-0"
             style="background-image: url({{webRoot}}/assets/images/banners/banner-category-top.jpg);">
             <div class="container-fluid position-relative z-index-20" data-aos="fade-right" data-aos-delay="300">
-                <h1 class="fw-bold display-6 mb-4 text-white">Latest Arrivals</h1>
+                <h1 class="fw-bold display-6 mb-4 text-white">နောက်ဆုံးရ စားသောက်ကုန်များ</h1>
                 <div class="col-12 col-md-6">
                     <p class="text-white mb-0 fs-5">
-                        When it's time to head out and get your Kicks on, have a look at our latest arrivals. Whether you're into Nike, Adidas, Dunks or New Balance, we really have something for everyone!
+                        ဆိုင်ကို အခုမှ ရောက်လာတဲ့ စားသောက်ကုန်များ ကို ကြည့်လိုက်ပါ
                     </p>
                 </div>
             </div>
@@ -39,7 +39,7 @@
             <div class="row g-4">
             {{#if (config category-products)}}
                 {{#each category-products.entries}}
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-6 col-sm-6 col-lg-4">
                         {{> listing-cards/listing-card this }}
                     </div>
                 {{/each}}
