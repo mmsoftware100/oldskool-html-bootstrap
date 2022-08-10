@@ -1,73 +1,73 @@
 {
     "entries": [{
-            "title": "Nike Air VaporMax 2021",
+            "title": "သဇင်မြိုင် သရက်သီးသနှပ်",
             "price": "329.99",
             "sale-price": "198.66",
-            "currency": "$",
-            "options": "4 colours, 10 sizes",
+            "currency": "MMK",
+            "options": "အရသာမှာ ထိပ်ဆုံး",
             "img": "{{webRoot}}/assets/images/products/product-1.jpg"
         },
         {
-            "title": "Nike ZoomX Vaporfly",
+            "title": "ကိုနိုင် သရက်သီး သနှပ်",
             "price": "275.45",
             "new": true,
-            "currency": "$",
-            "options": "2 colours, 4 sizes",
+            "currency": "MMK",
+            "options": "ချိုချို အေးအေး သရက်သီးလေး",
             "img": "{{webRoot}}/assets/images/products/product-2.jpg"
         },
         {
-            "title": "Nike Blazer Mid '77",
+            "title": "ထူးထူး အကြော်စုံ",
             "price": "198.56",
             "sold-out": true,
-            "currency": "$",
-            "options": "5 colours, 6 sizes",
+            "currency": "MMK",
+            "options": "အပျင်းပြေ စားစရာ",
             "img": "{{webRoot}}/assets/images/products/product-3.jpg"
         },
         {
-            "title": "Nike Air Force 1",
+            "title": "စားကောင်း စားဖွယ်စုံ",
             "price": "425.85",
-            "currency": "$",
-            "options": "6 colours, 9 sizes",
+            "currency": "MMK",
+            "options": "အလွယ်တကူ စားပါ",
             "img": "{{webRoot}}/assets/images/products/product-4.jpg"
         },
         {
-            "title": "Nike Air Max 90",
+            "title": "မ‌ရွှေမိုး ငါးခြောက်",
             "price": "196.99",
             "sale-price": "98.66",
-            "currency": "$",
-            "options": "4 colours, 10 sizes",
+            "currency": "MMK",
+            "options": "ထမင်းဝိုင်းတိုင်း မပါမဖြစ်",
             "img": "{{webRoot}}/assets/images/products/product-5.jpg"
         },
         {
-            "title": "Nike Glide FlyEase",
+            "title": "တိုမို အာလူး",
             "price": "329.99",
             "sale-price": "198.66",
             "new": true,
-            "currency": "$",
-            "options": "1 colour",
+            "currency": "MMK",
+            "options": "ကျွတ်ကျွတ်ကလေး အာလူးကြော်",
             "img": "{{webRoot}}/assets/images/products/product-6.jpg"
         },
         {
-            "title": "Nike Zoom Freak",
+            "title": "နှင်းစီ ဘီစကစ်",
             "price": "444.99",
-            "currency": "$",
-            "options": "2 colours, 2 sizes",
+            "currency": "MMK",
+            "options": "အပြင်းပြေ စားစား",
             "img": "{{webRoot}}/assets/images/products/product-7.jpg"
         },
         {
-            "title": "Nike Air Pegasus",
+            "title": "လူးလူး အာလူးကြော်",
             "price": "178.99",
             "new": true,
-            "currency": "$",
-            "options": "3 colours, 10 sizes",
+            "currency": "MMK",
+            "options": "တကျွတ်ကျွတ်ဝါး",
             "img": "{{webRoot}}/assets/images/products/product-8.jpg"
         },
         {
-            "title": "Nike Air Jordans",
+            "title": "မြင့်မြင့်ခင် ထိုးမုန့်",
             "price": "154.99",
             "new": true,
-            "currency": "$",
-            "options": "3 colours, 10 sizes",
+            "currency": "MMK",
+            "options": "ချိုအီမွှေးစိမ့်",
             "img": "{{webRoot}}/assets/images/products/product-1.jpg"
         }
     ]

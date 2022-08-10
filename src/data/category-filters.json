@@ -9,37 +9,13 @@
             "count": "13"
         },
         {
-            "label": "Canterbury",
+            "label": "အဖျော်ယမကာ",
             "count": "18"
         },
         {
-            "label": "Converse",
+            "label": "အဆာပြေမုန့်",
             "count": "25"
-        },
-        {
-            "label": "Donnay",
-            "count": "11"
-        },
-        {
-            "label": "Nike",
-            "count": "19"
-        },
-        {
-            "label": "Millet",
-            "count": "24"
-        },
-        {
-            "label": "Puma",
-            "count": "11"
-        },
-        {
-            "label": "Reebok",
-            "count": "19"
-        },
-        {
-            "label": "Under Armour",
-            "count": "24"
-        }           
+        }       
     ],
     "sizes": [
         {

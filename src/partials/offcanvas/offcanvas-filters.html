@@ -28,7 +28,7 @@
           <a class="small text-body text-decoration-none text-secondary-hover transition-all transition-all fs-6 fw-bolder d-block collapse-icon-chevron"
             data-bs-toggle="collapse" href="#filter-modal-brands" role="button" aria-expanded="true"
             aria-controls="filter-modal-brands">
-            Brands
+            ပစ္စည်းအမျိုးအစား
           </a>
           <div id="filter-modal-brands" class="collapse show">
             <div class="input-group my-3 py-1">
@@ -49,43 +49,8 @@
         <!-- / Brands Filter -->
         {{/if}}
 
-        {{#if (config category-filters.sizes) }}
-        <!-- Sizes Filter -->
-        <div class="py-4 widget-filter border-top">
-          <a class="small text-body text-decoration-none text-secondary-hover transition-all transition-all fs-6 fw-bolder d-block collapse-icon-chevron"
-            data-bs-toggle="collapse" href="#filter-modal-sizes" role="button" aria-expanded="true"
-            aria-controls="filter-modal-sizes">
-            Sizes
-          </a>
-          <div id="filter-modal-sizes" class="collapse show">
-            <div class="filter-options mt-3">
-              {{#each category-filters.sizes }}
-              {{> filters/filter-checkbox-two this type="sizes-modal" }}
-              {{/each}}
-            </div>
-          </div>
-        </div>
-        <!-- / Sizes Filter -->
-        {{/if}}
+        
 
-        {{#if (config category-filters.colours) }}
-        <!-- Colour Filter -->
-        <div class="py-4 widget-filter border-top">
-          <a class="small text-body text-decoration-none text-secondary-hover transition-all transition-all fs-6 fw-bolder d-block collapse-icon-chevron"
-            data-bs-toggle="collapse" href="#filter-modal-colour" role="button" aria-expanded="true"
-            aria-controls="filter-modal-colour">
-            Colour
-          </a>
-          <div id="filter-modal-colour" class="collapse show">
-            <div class="filter-options mt-3">
-              {{#each category-filters.colours }}
-              {{> filters/filter-colour this type="colours-modal" }}
-              {{/each}}
-            </div>
-          </div>
-        </div>
-        <!-- / Colour Filter -->
-        {{/if}}
       </div>
       <!-- / Filters-->
 
