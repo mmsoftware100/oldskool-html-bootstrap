@@ -18,12 +18,13 @@
         </picture>
         {{#unless sold-out}}
             <div class="position-absolute start-0 bottom-0 end-0 z-index-20 p-2">
-                <button class="btn btn-quick-add"><i class="ri-add-line me-2"></i> စျေးခြင်းထဲထည့်ပါ</button>
+                <!-- <button class="btn btn-quick-add"><i class="ri-add-line me-2"></i> စျေးခြင်းထဲထည့်ပါ</button> -->
             </div>
         {{/unless}}
     </div>
     <div class="card-body px-0">
         <a class="text-decoration-none link-cover" href="{{webRoot}}/product.html">{{ title }}</a>
+        <hr>
         <small class="text-muted d-block">{{ options }}</small>
         {{#if sold-out}}
             <p class="mt-2 mb-0 small text-muted">Sold Out</p>
@@ -34,6 +35,12 @@
                 <p class="mt-2 mb-0 small">{{ currency }}{{ price }}</p>
             {{/if}}
         {{/if}}
+        
+        <button type="button" class="btn-sm btn btn-outline-info rounded-circle">-</button>
+        <span> 1 </span>
+        <button type="button" class="btn-sm btn btn-outline-info rounded-circle">+</button>
+        <button type="button" class="btn btn-outline-info rounded btn-sm p-2">စျေးခြင်းထဲထည့်ပါ</button>
+                
     </div>
 </div>
 <!--/ Card Product-->
